@@ -11,7 +11,7 @@ from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
 from sklearn.preprocessing import StandardScaler
 import warnings
 from statsmodels.tools.sm_exceptions import ConvergenceWarning, HessianInversionWarning
-from scipy import stats   # ⭐ 用于 p 值
+from scipy import stats
 
 # ------------------------------------------------------------
 # Warning management
